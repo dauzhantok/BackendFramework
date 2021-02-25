@@ -59,14 +59,17 @@ object Solution {
     }
   }
   println(dayOfTheWeek(1,1,2001))
+
+  //Task4
   def findPairs(nums: Array[Int], k: Int): Int = {
     var s = 0
+    var arr=sortin(nums)
     if (k < 0)
       0
     else if (k == 0){
-      for ( i <- 0 to (nums.length - 1)) {
-        for ( j <- i+1 to (nums.length - 1)) {
-          if(nums(i)-nums(j)==0){
+      for ( i <- 0 to (arr.length - 1)) {
+        for ( j <- i+1 to (arr.length - 1)) {
+          if(arr(i)-arr(j)==0){
             s+=1
           }
         }
@@ -74,11 +77,13 @@ object Solution {
       s
     }
     else {
-      for ( i <- 0 to (nums.length - 2)) {
-        for ( j <- i+1 to (nums.length - 1)) {
-          var p=nums(i)-nums(j)
+      var ar=sortdub(arr)
+      for ( i <- 0 to (ar.length - 1)) {
+        for ( j <- i+1 to (ar.length - 1)) {
+
+          var p=ar(i)-ar(j)
           if(p<0){
-            p=nums(j)-nums(i)
+            p=ar(j)-ar(i)
           }
           if(p==k){
             s+=1
@@ -88,5 +93,40 @@ object Solution {
       s
     }
   }
-
+  def sortin(arr: Array[Int]): Array[Int] = {
+    for (i <- 0 to (arr.length - 1)){
+      for (j <- 0 to (arr.length - 2)){
+        var b=arr(j)
+        var c=arr(j+1)
+        if(b>c){
+          var a=arr(j)
+          arr(j)=arr(j+1)
+          arr(j+1)=a
+        }
+      }
+    }
+    arr
+  }
+  def sortdub(arr: Array[Int]): Array[Int] = {
+    var n = arr.length-1
+    var p=2
+    for(i <- 1 to n )
+    {
+      if(arr(i) != arr(i-1))
+      {
+        p+=1
+      }
+    }
+    var nums = new Array[Int](p)
+    nums(0)=arr(0)
+    var t=1
+    for (i <- 1 to n){
+      if(arr(i) != arr(i-1))
+      {
+        nums(t)=arr(i)
+        t+=1
+      }
+    }
+    nums
+  }
 }

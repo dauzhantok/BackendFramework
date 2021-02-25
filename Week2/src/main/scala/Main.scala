@@ -127,4 +127,74 @@ object Hello extends App {
     case x => println("ZXC or QWER")
   }
   //ex14("ZXC")
+
+  def sortdub(arr: Array[Int]): Array[Int] = {
+    var n = arr.length-1
+    var p=2
+    for(i <- 1 to n ) {
+    {
+      if(arr(i) != arr(i-1))
+      {
+        p+=1
+      }
+    }
+    println(p)
+    }
+    var nums = new Array[Int](p)
+    nums(0)=arr(0)
+    var t=1
+    for (i <- 1 to n){
+      if(arr(i) != arr(i-1))
+      {
+        nums(t)=arr(i)
+        t+=1
+      }
+    }
+    nums
+  }
+  def sortin(arr: Array[Int]): Array[Int] = {
+    for (i <- 0 to (arr.length - 1)){
+      for (j <- 0 to (arr.length - 2)){
+        var b=arr(j)
+        var c=arr(j+1)
+        if(b>c){
+          var a=arr(j)
+          arr(j)=arr(j+1)
+          arr(j+1)=a
+        }
+      }
+    }
+    arr
+  }
+  def findPairs(nums: Array[Int], k: Int): Int = {
+    var s = 0
+    val arr=sortin(nums)
+    if (k < 0)
+      0
+    else if (k == 0){
+      for ( i <- 0 to (arr.length - 1)) {
+        for ( j <- i+1 to (arr.length - 1)) {
+          if(arr(i)-arr(j)==0){
+            s+=1
+          }
+        }
+      }
+      s
+    }
+    else {
+      var ar=sortdub(arr)
+      for ( i <- 0 to (ar.length - 1)) {
+        for ( j <- i+1 to (ar.length - 1)) {
+          var p=ar(j)-ar(i)
+          if(p==k){
+            s+=1
+          }
+        }
+      }
+      s
+    }
+  }
+
+  var nums=Array(1,2,4,4,3,3,0,9,2,3)
+  println(findPairs(nums,3))
 }
