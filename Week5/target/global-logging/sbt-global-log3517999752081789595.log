@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Main, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid command: Main (similar: alias)[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: Main[0m
+[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '/'[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: Main (similar: runMain, bgRunMain, fgRunMain)[0m
+[0m[[0m[31merror[0m] [0m[0mMain[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
