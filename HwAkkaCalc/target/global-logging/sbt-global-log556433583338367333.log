@@ -1,0 +1,91 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Amazon.com Inc. Java 1.8.0_282)
+[debug]       Load.loadUnit: plugins took 562.132819ms
+[debug]       Load.loadUnit: defsScala took 0.65544ms
+[debug] [Loading] Scanning directory /Users/dauzhant/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/dauzhant/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 151.965577 ms
+[debug]           Load.resolveProject(global-plugins) took 185.604576ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/dauzhant/.sbt/1.0/plugins, plugins: List(<none>))) took 556.234635ms
+[debug] [Loading] Done in /Users/dauzhant/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 803.595552ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.466828ms
+[debug]     Load.loadUnit(file:/Users/dauzhant/.sbt/1.0/plugins/, ...) took 1387.994606ms
+[debug]   Load.apply: load took 2572.425204ms
+[debug]   Load.apply: resolveProjects took 17.35201ms
+[debug]   Load.apply: finalTransforms took 125.124681ms
+[debug]   Load.apply: config.delegates took 15.33583ms
+[debug]   Load.apply: Def.make(settings)... took 1006.773159ms
+[debug]   Load.apply: structureIndex took 190.38909ms
+[debug]   Load.apply: mkStreams took 2.557239ms
+[info] loading global plugins from /Users/dauzhant/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 7151.883493ms
+[debug]           Load.loadUnit: plugins took 41.383685ms
+[debug]           Load.loadUnit: defsScala took 0.007141ms
+[debug] [Loading] Scanning directory /Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 5.300911 ms
+[debug]               Load.resolveProject(hwakkacalc-build) took 4.112719ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id hwakkacalc-build, base: /Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc/project, plugins: List(<none>))) took 11.569342ms
+[debug] [Loading] Done in /Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc/project, returning: (hwakkacalc-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 15.0633ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.019796ms
+[debug]         Load.loadUnit(file:/Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc/project/, ...) took 57.843693ms
+[debug]       Load.apply: load took 60.393513ms
+[debug]       Load.apply: resolveProjects took 0.285517ms
+[debug]       Load.apply: finalTransforms took 25.7526ms
+[debug]       Load.apply: config.delegates took 0.99947ms
+[debug]       Load.apply: Def.make(settings)... took 236.068777ms
+[debug]       Load.apply: structureIndex took 44.176306ms
+[debug]       Load.apply: mkStreams took 0.004527ms
+[info] loading project definition from /Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 717.030812ms
+[debug]     Load.loadUnit: defsScala took 0.006014ms
+[debug] [Loading] Scanning directory /Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc
+[debug]       Load.loadUnit: mkEval took 40.22397ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.001572 ms
+[info] loading settings for project hwakkacalc from build.sbt ...
+[debug]         Load.resolveProject(hwakkacalc) took 5.217287ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id hwakkacalc, base: /Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc, plugins: List(<none>))) took 9.555326ms
+[debug] [Loading] Done in /Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc, returning: (hwakkacalc)
+[debug]     Load.loadUnit: loadedProjectsRaw took 236.610865ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.251924ms
+[debug]   Load.loadUnit(file:/Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc/, ...) took 964.209354ms
+[debug] Load.apply: load took 966.686424ms
+[debug] Load.apply: resolveProjects took 0.169054ms
+[debug] Load.apply: finalTransforms took 13.244982ms
+[debug] Load.apply: config.delegates took 0.475743ms
+[debug] Load.apply: Def.make(settings)... took 176.379438ms
+[debug] Load.apply: structureIndex took 49.960369ms
+[debug] Load.apply: mkStreams took 0.004595ms
+[info] set current project to HwAkkaCalc (in build file:/Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to /Users/dauzhant/Desktop/BackendFramework/HwAkkaCalc/target/scala-2.13/classes ...
+[info] done compiling

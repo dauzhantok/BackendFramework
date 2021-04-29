@@ -82,7 +82,7 @@ private class HelloActor extends Operatio with Actor {
   }
 }
 
-object Main extends App {
+object Main {
   val system = ActorSystem("HelloSystem")
   val helloActor = system.actorOf(Props[HelloActor], name = "helloactor")
   helloActor ! "1+1+3+5="

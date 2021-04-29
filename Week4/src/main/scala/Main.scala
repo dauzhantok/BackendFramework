@@ -24,6 +24,7 @@ class Calculation extends Operation {
     var num = ""
     var intlist=List[Int]()
     var operlist=List[Char]()
+    
     for (b <- a){
       if(toInt(b)==None){
         b match {
@@ -64,6 +65,7 @@ class Calculation extends Operation {
         case '-' => digit=min(digit,intlist(i+1))
         case '*' => digit=mul(digit,intlist(i+1))
         case '/' => digit=div(digit,intlist(i+1))
+        case '^' => digit=mm(digit,intlist(i+1))
       }
     }
     digit
@@ -85,5 +87,14 @@ class Operation {
   def mul(a: Int,b: Int): Int ={
     val mul=a*b
     mul
+  }
+  def mm(a: Int, b: Int): Int={
+    var indx=0
+    var mm=a
+    while(indx!=b){
+      mm=mm*a
+      indx= indx+1
+    }
+    mm
   }
 }

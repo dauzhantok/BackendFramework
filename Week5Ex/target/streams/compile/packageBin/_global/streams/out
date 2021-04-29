@@ -1,0 +1,33 @@
+[debug] Packaging /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/week5ex_2.13-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	HelloWorldBot$.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorldBot$.class
+[debug] 	Main$.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/Main$.class
+[debug] 	HelloWorldBot.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorldBot.class
+[debug] 	HelloWorld$Greet$.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorld$Greet$.class
+[debug] 	HelloWorld.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorld.class
+[debug] 	HelloWorld$Greeted.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorld$Greeted.class
+[debug] 	HelloWorld$.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorld$.class
+[debug] 	HelloWorldMain.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorldMain.class
+[debug] 	HelloWorldMain$SayHello$.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorldMain$SayHello$.class
+[debug] 	Main.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/Main.class
+[debug] 	HelloWorld$Greet.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorld$Greet.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/Main$delayedInit$body.class
+[debug] 	HelloWorld$Greeted$.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorld$Greeted$.class
+[debug] 	HelloWorldMain$.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorldMain$.class
+[debug] 	HelloWorldMain$SayHello.class
+[debug] 	  /Users/dauzhant/Desktop/BackendFramework/Week5Ex/target/scala-2.13/classes/HelloWorldMain$SayHello.class
+[debug] Done packaging.

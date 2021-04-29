@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/dauzhant/Desktop/BackendFramework/AkkaHttpCalcul/target/scala-2.12/akkahttpcalcul_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SprayJsonExample$Order.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dauzhant/Desktop/BackendFramework/AkkaHttpCalcul/target/scala-2.12/classes/SprayJsonExample$Order.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SprayJsonExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dauzhant/Desktop/BackendFramework/AkkaHttpCalcul/target/scala-2.12/classes/SprayJsonExample.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SprayJsonExample$Item$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dauzhant/Desktop/BackendFramework/AkkaHttpCalcul/target/scala-2.12/classes/SprayJsonExample$Item$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SprayJsonExample$Order$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dauzhant/Desktop/BackendFramework/AkkaHttpCalcul/target/scala-2.12/classes/SprayJsonExample$Order$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SprayJsonExample$Item.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dauzhant/Desktop/BackendFramework/AkkaHttpCalcul/target/scala-2.12/classes/SprayJsonExample$Item.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SprayJsonExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/dauzhant/Desktop/BackendFramework/AkkaHttpCalcul/target/scala-2.12/classes/SprayJsonExample$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
